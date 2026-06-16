@@ -1,18 +1,25 @@
 \# 👁 VisionAssist AI
+## AI-Powered Image Detection and Analysis Platform
 
+VisionAssist AI is an intelligent computer vision application that analyzes images using Artificial Intelligence. The system can detect objects, extract text from images, and provide meaningful information from visual content.
 
+The project combines deep learning and image processing techniques to create an automated image understanding system.
 
-\## AI-Powered Accessibility Assistant for Visually Impaired Users
+---
 
+# 🚀 Features
 
+## 👁 Object Detection
 
-VisionAssist AI is an intelligent assistive application that uses Artificial Intelligence and Computer Vision to help visually impaired users understand their surroundings.
+- Detects multiple objects present in an image.
 
+- Uses a YOLO deep learning model for real-time object recognition.
 
+- Provides information about detected objects.
 
-The system can detect objects, extract text from images, and provide voice-based feedback.
+Example:
 
-
+Input:
 
 \---
 
