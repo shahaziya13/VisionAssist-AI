@@ -1,0 +1,1 @@
+VisionAssist AI is a web application designed to help visually impaired individuals. It uses artificial intelligence to identify objects, read text from images, provide speech feedback, and assist users during emergencies.

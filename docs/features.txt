@@ -1,0 +1,11 @@
+VisionAssist AI
+
+Features:
+
+1. Object Detection
+2. OCR Text Reader
+3. Text to Speech
+4. Voice Commands
+5. Emergency SOS
+6. Face Recognition (Optional)
+7. Currency Recognition (Optional)

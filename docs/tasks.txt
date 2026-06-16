@@ -1,0 +1,7 @@
+Day 1 - Planning and Setup
+Day 2 - Backend Setup
+Day 3 - Object Detection
+Day 4 - OCR Reader
+Day 5 - Voice Features
+Day 6 - Frontend UI
+Day 7 - Testing and Deployment
