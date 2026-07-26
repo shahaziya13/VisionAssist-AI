@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Inter,Segoe UI,Arial,sans-serif;
+  background:linear-gradient(135deg,#eef5ff,#edf4ff,#f8f5ff);
+  color:#1e293b;
+  overflow-x:hidden;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#e2e8f0;
+}
+
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(#2563eb,#7c3aed);
+  border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:linear-gradient(#1d4ed8,#6d28d9);
+}
+
+/* Glass Effect */
+
+.glass{
+  background:rgba(255,255,255,.65);
+  backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,.35);
+}
+
+/* Cards */
+
+.card-hover{
+  transition:.35s ease;
+}
+
+.card-hover:hover{
+  transform:translateY(-8px);
+  box-shadow:0 25px 60px rgba(37,99,235,.18);
+}
+
+/* Buttons */
+
+.btn-primary{
+  background:linear-gradient(90deg,#2563eb,#4f46e5,#7c3aed);
+  color:#fff;
+  border:none;
+  border-radius:14px;
+  padding:12px 24px;
+  cursor:pointer;
+  transition:.3s;
+  font-weight:600;
+}
+
+.btn-primary:hover{
+  transform:translateY(-2px) scale(1.03);
+  box-shadow:0 12px 30px rgba(37,99,235,.35);
+}
+
+.btn-danger{
+  background:#ef4444;
+  color:white;
+  border:none;
+  border-radius:14px;
+  padding:12px 24px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.btn-danger:hover{
+  background:#dc2626;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select{
+  width:100%;
+  border:1px solid #dbeafe;
+  border-radius:14px;
+  padding:14px;
+  outline:none;
+  transition:.3s;
+  background:white;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+  border-color:#2563eb;
+  box-shadow:0 0 0 4px rgba(37,99,235,.15);
+}
+
+/* Images */
+
+img{
+  max-width:100%;
+  border-radius:18px;
+}
+
+/* Fade Animation */
+
+.fade-in{
+  animation:fade .6s ease;
+}
+
+@keyframes fade{
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+/* Floating */
+
+.float{
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-10px);
+  }
+}
